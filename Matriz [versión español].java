@@ -41,7 +41,7 @@ public abstract class Matriz {
         return matrizReducida;
     }
     
-    public static double[][] calcularSumaResta (double matriz1[][], double matriz2[][], int operacion) {
+    public static double[][] calcularSumaResta (double matriz1[][], double matriz2[][], int operacion) {  // si operacion = 1 se hará la suma, si es -1 se hará la resta
         double [][]resultado = new double [matriz1.length][matriz1[0].length];
         for (int i = 0; i < matriz1.length; i++) {
             for (int j = 0; j < matriz1[0].length; j++) {
