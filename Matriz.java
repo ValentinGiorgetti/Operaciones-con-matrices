@@ -1,5 +1,3 @@
-package matrices;
-
 public abstract class Matriz {
     
     public static void imprimirMatriz (double matriz[][]) {
